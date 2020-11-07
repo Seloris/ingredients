@@ -1,0 +1,26 @@
+form {
+  padding: 2em;
+  border: solid 1px gray;
+  .form-control {
+    label {
+      display: block;
+      margin-right: 0.5em;
+    }
+    input {
+      margin-bottom: 1em;
+    }
+  }
+
+  .ingredients {
+    display: flex;
+    flex-wrap: wrap;
+    > * {
+      margin: 1em;
+    }
+    margin: -1em;
+  }
+
+  button {
+    margin-top: 2em;
+  }
+}
