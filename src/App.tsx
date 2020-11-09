@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
-import { RecipeForm } from './components/RecipeForm';
+
+import RecipeForm from './components/RecipeForm';
 
 function App() {
   return (
